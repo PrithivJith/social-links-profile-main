@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  font-family: "Inter", sans-serif;
+  color: white;
+  text-align: center;
+}
+html,body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+  display: flex;
+  
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  flex-grow: 1;
+}
+ 
+
+.card{
+  max-height: fit-content;
+  max-width: 400px;
+  width: 95%;
+  margin: 2rem;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem; 
+  border-radius: 2rem;
+}
+.full-name{
+  font-weight: 450;
+  margin-bottom: 0;
+  margin: 8px;
+}
+
+.location{
+  color: hsl(74, 66%, 59%);
+  margin: 10px 10px 20px 10px;
+}
+.description{
+  color: hsl(0, 0%, 75%);
+  font-size: large;
+}
+img{
+  width: 110px;
+  border-radius: 100px;
+  margin: 10px 20px;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  margin: 20px 20px 30px 20px;
+}
+button{
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: none;
+  border: none;
+  width: 97%;
+}
+button p{
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+button:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+button:hover p{
+  color: hsl(0, 0%, 12%);
+}
